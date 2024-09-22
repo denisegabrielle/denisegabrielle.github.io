@@ -8,12 +8,6 @@ img {
     margin-top: 20px;
 }
 
-h6 {
-    color: rgb(199, 192, 171);
-    text-align: left;
-    margin-top: 15px;
-}
-
 h1 {
     color: rgb(199, 192, 171);
     text-align: center;
@@ -27,7 +21,6 @@ p {
 
 section.projects {
     padding-top: 20px;
-    /* Prevent margin collapse */
     text-align: center;
 }
 
