@@ -1,58 +1,57 @@
 body {
     background-color: #201e1e;
-    color: rgb(47, 44, 44);
+    color: rgb(199, 192, 171);
     font-family: Arial, sans-serif;
 }
 
-img {
-    margin-top: 20px;
+.top-right-nav {
+    display: flex;
+    gap: 20px;
 }
 
-.navbar .navbar-nav .nav-link {
-    margin-right: 30px;
+.top-right-nav a {
     color: rgb(199, 192, 171);
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
-.navbar .navbar-nav .nav-link:hover {
+.top-right-nav a:hover {
     color: rgb(244, 220, 179);
 }
 
-h3, p {
-    color: rgb(199, 192, 171);
-    margin-top: 10px;
+h3 {
+    margin-top: 75px;
     transition: color 0.3s, transform 0.3s;
 }
 
-h3:hover, p:hover {
+h3:hover {
     color: rgb(244, 220, 179);
     transform: scale(1.05);
 }
 
 hr {
-    border: none; 
-    height: 2px; 
-    background-color: rgb(244, 220, 179); 
-    margin-top: 25px; 
+    border: none;
+    height: 2px;
+    background-color: rgb(244, 220, 179);
+    margin: 70px 0;
 }
 
-section.projects {
+.projects {
     padding-top: 20px;
 }
 
-#project1-btn a {
+#project1-btn {
     background-color: rgb(47, 44, 44);
     color: rgb(199, 192, 171);
     border-radius: 10px;
-    margin-top: 30px;
     padding: 10px;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
     transition: 0.3s;
-    display: inline-block;
 }
 
-#project1-btn:hover a {
+#project1-btn:hover {
     background-color: rgb(199, 192, 171);
     color: rgb(47, 44, 44);
 }
