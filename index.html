@@ -6,37 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Denise Gabrielle's Works</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header class="container">
-        <img src="DG.png" alt="DG">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <span class="navbar-brand">
+                <img src="DG.png" alt="DG" class="d-inline-block align-top" style="height: 40px;">
+            </span>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <div class="container">
-        <div>
-            <h1>Welcome! Unveil the Magic of My Projects</h1>
-            <p><i>"Every line of code is a step in crafting a dream."</i></p>
-        </div>
-        <!-- Projects Section -->
-        <section class="projects text-center">
-            <button id="project1-btn" class="btn"><a href="#"> Project 1</a></button>
+    <div class="container text-center">
+        <h3>Welcome! Unveil the Magic of My Projects</h3>
+        <p><i>"Every line of code is a step in crafting a dream."</i></p>
+        <hr>
+        <section class="projects">
+            <button id="project1-btn" class="btn">
+                <a href="#">Project 1</a>
+            </button>
         </section>
     </div>
 
-    <footer class="container">
+    <footer class="container text-center">
         <p>&copy; 2024 | dg</p>
     </footer>
-    
-    <!-- Bootstrap JS and dependencies -->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
