@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: whitesmoke;
-    padding: 0 15%;
+    padding: 0 20%;
     box-sizing: border-box;
     margin-left: 15%;
     margin-right: 15%;
@@ -56,8 +56,8 @@ h1 {
 }           
 
 hr {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-top: 5px ;
 }
 
@@ -70,12 +70,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin-top: 20px;
-}
-.container-imgs img {
-    width: 50%; 
-    max-width: 80%; 
-    height: auto; 
+    margin-top: 10%;
 }
 
 #keyboard {
