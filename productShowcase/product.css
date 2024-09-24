@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: whitesmoke;
-    padding: 0 20%;
+    padding: 0 10%;
     box-sizing: border-box;
     margin-left: 15%;
     margin-right: 15%;
@@ -70,7 +70,13 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin-top: 10%;
+    margin-top: 20px;
+}
+
+.container-imgs img {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
 }
 
 #keyboard {
