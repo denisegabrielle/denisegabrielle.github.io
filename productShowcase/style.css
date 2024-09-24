@@ -45,7 +45,7 @@ h3 {
     position: absolute;
     right: 180px;
     top: 50px;
-    height: 350px;
+    height: 320px;
 }
 
 #keyboard {
@@ -58,8 +58,8 @@ h3 {
 #info1 {
     position: absolute;
     font-size: 18px;
-    margin-top: 180px;
-    margin-left: 380px;
+    margin-top: 170px;
+    margin-left: 430px;
 }
 
 #info2 {
@@ -70,14 +70,14 @@ h3 {
     position: absolute;
     font-size: 18px;
     top: 70px; 
-    margin-left: 400px;
+    margin-left: 430px;
 }
 
 #info5 {
     position: absolute;
     font-size: 18px;
-    top: 470px; 
-    margin-left: 390px;
+    top: 425px; 
+    margin-left: 430px;
 }
 
 #info6 {
@@ -89,7 +89,7 @@ h3 {
 #info7 {
     position: absolute;
     top: 250px; 
-    margin-left: 180px;
+    margin-left: 190px;
 }
 
 #info8 {
@@ -101,6 +101,6 @@ h3 {
 #info9 {
     position: absolute;
     font-size: 18px;
-    margin-top: 50px;
-    margin-left: 410px;
+    margin-top: 25px;
+    margin-left: 430px;
 }
