@@ -1,0 +1,106 @@
+body {
+    color: rgb(244, 238, 238);
+    background-image: url("IPAD img/bg3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 14px;
+}
+
+.container {
+    position: relative; 
+    padding: 0 40px; 
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: left; 
+}
+
+.images-container {
+    position: relative;
+    filter: drop-shadow(5px 5px 10px rgba(121, 77, 119, 0.5));
+}
+
+.text-container {
+    position: relative;
+}
+
+#m4 {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    height: 100px;
+}
+
+#ip1 {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    height: 230px;
+    text-shadow: 10px 10px 10px;
+}
+
+#ip4 {
+    position: absolute;
+    right: 180px;
+    top: 50px;
+    height: 350px;
+}
+
+#keyboard {
+    position: absolute;
+    right: 0px;
+    top: 350px;
+    width: 440px;
+}
+
+#info1 {
+    position: absolute;
+    font-size: 18px;
+    margin-top: 180px;
+    margin-left: 380px;
+}
+
+#info2 {
+    margin-top: 25px;
+}
+
+#info4 {
+    position: absolute;
+    font-size: 18px;
+    top: 70px; 
+    margin-left: 400px;
+}
+
+#info5 {
+    position: absolute;
+    font-size: 18px;
+    top: 470px; 
+    margin-left: 390px;
+}
+
+#info6 {
+    position: absolute;
+    top: 250px; 
+    margin-left: 0px;
+}
+
+#info7 {
+    position: absolute;
+    top: 250px; 
+    margin-left: 180px;
+}
+
+#info8 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 0px;
+}
+
+#info9 {
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 410px;
+}
