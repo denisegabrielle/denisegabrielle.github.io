@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CucinaThings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/playfair-display-sc" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/playfair-display" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/source-sans-pro" rel="stylesheet">
+    <link rel="icon" type="image/png" href="foodImgs/logo.png">
+</head>
+
+<body>
+
+    <div class="container-home">
+        <img src="foodImgs/bg.jpg" alt="Spices" class="bg-image">
+
+        <nav class="container-flex shadow justify-content-between align-items-center navbar fixed-top ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="foodImgs/logo.png" alt="Logo" width="60" height="50"
+                        class="d-inline-block align-text-top">
+                </a>
+                <div class="d-flex">
+                    <div class="dropdown me-3 mt-2">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Foods
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="categories.html#section-1">European Cuisine</a></li>
+                            <li><a class="dropdown-item" href="categories.html#section-2">Appetizer</a></li>
+                            <li><a class="dropdown-item" href="categories.html#section-3">Pastry</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.instagram.com/cucinathings?igsh=MW9yaG5lNzhxbXp6Ng==">Explore
+                                    CucinaThings</a></li>
+                        </ul>
+                    </div>
+                    <button class="btnChangeColor" id="btnColor" onclick="changeColorMode()">
+                        <img id="darkMode" src="foodImgs/darkMode1.png" alt="Toggle Dark Mode">
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="centered">
+
+            <h1 class="text-subtitle-home">CUCINA</h1>
+            <h4 class="text-subtitle-home">Things</h4>
+                <div class="d-flex justify-content-center mt-4">
+                    <a class="btn btn-secondary rounded-5" id="exploreBtn"  href="categories.html" role="button" >Explore</a>
+                </div>
+        </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

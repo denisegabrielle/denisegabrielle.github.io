@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #EBE3DB;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    overflow-x: hidden; 
+}
+
+.container-home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    width: 100%; 
+    background-color: #3A2D28;
+    padding: 0; 
+}
+
+.navbar .dropdown:hover {
+    color: #EBE3DB;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    width: 100%; 
+}
+
+.text-title {
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0; 
+    padding: 0;
+}
+
+.contents {
+    padding-top: 70px; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.contents h4 {
+    max-width: 900px; 
+    margin: 0 auto;
+}
+
+.text-subtitle {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 80px;
+}
+
+.text-subtitle-home {
+    color: #EBE3DB;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 100px;
+}
+
+.btn {
+    
+    background-color: #EBE3DB;
+    color:#79593e; 
+}
+
+#btnColor {
+    background-color: #EBE3DB;
+    color: #79593e;
+}
+
+.btnChangeColor {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #EBE3DB;
+    color:#79593e; 
+}
+
+.thumbnail {
+    position: relative; 
+    overflow: hidden; 
+}
+
+.thumbnail-image {
+    display: block;
+    width: 100%; 
+    height: auto; 
+}
+
+.thumbnail-overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(58, 45, 40, 0.7);
+    color: #EBE3DB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    opacity: 0; 
+    transition: opacity 0.25s; 
+}
+
+.thumbnail:hover .thumbnail-overlay {
+    opacity: 1; 
+}
+
+.thumbnail-title {
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.video-item {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+.lightbox {
+    position: fixed; 
+    left: 0;
+    top: 60px;
+    width: 100%;
+    height: calc(100% - 60px); 
+    overflow: hidden;
+    background-color: rgba(54, 54, 53, 0.8);
+    display: none; 
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-content {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 80%;
+    max-height: 80%;
+    font-weight: bold;
+}
+
+.caption {
+    margin: auto;
+    margin-top: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #EBE3DB;
+}
+
+.close, .next, .prev {
+    position: fixed;
+    color: #EBE3DB;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    top: 50%; 
+}
+
+.close {
+    top: 50px; 
+    right: 40px;
+    transform: none; 
+}
+
+.prev {
+    left: 20px; 
+}
+
+.next {
+    right: 20px; 
+}

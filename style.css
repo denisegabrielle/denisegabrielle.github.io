@@ -1,0 +1,68 @@
+body {
+    background-color: #201e1e;
+    color: rgb(199, 192, 171);
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-right-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.top-right-nav a {
+    color: rgb(199, 192, 171);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.top-right-nav a:hover {
+    color: rgb(244, 220, 179);
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    margin-top: 75px;
+    transition: color 0.3s, transform 0.5s;
+}
+
+h2:hover, h3:hover {
+    color: rgb(244, 220, 179);
+    transform: scale(1.05);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgb(244, 220, 179);
+    margin-top: 45px;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    margin-top: 40px;
+}
+
+.projects {
+    padding-top: 20px;
+}
+
+#project1-btn {
+    background-color: rgb(47, 44, 44);
+    color: rgb(199, 192, 171);
+    border-radius: 25px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#project1-btn:hover {
+    background-color: rgb(199, 192, 171);
+    color: rgb(47, 44, 44);
+}
+
+footer {
+    color: rgb(199, 192, 171);
+    margin-top: 220px;
+}
