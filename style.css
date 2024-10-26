@@ -46,7 +46,7 @@ h3 {
     padding-top: 20px;
 }
 
-#project1-btn {
+#project-btn {
     background-color: rgb(47, 44, 44);
     color: rgb(199, 192, 171);
     border-radius: 25px;
@@ -57,7 +57,7 @@ h3 {
     transition: background-color 0.3s, color 0.3s;
 }
 
-#project1-btn:hover {
+#project-btn:hover {
     background-color: rgb(199, 192, 171);
     color: rgb(47, 44, 44);
 }
