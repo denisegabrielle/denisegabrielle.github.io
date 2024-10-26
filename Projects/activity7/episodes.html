@@ -21,7 +21,7 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="media/logo.png" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
                 </a>
-                
+
                 <div class="d-flex">
                     <a class="nav-link mx-3" href="characters.html">Characters</a>
                     <a class="nav-link mx-2" href="episodes.html">Episodes</a>
@@ -36,6 +36,11 @@
 
         </div>
         <div class="row" id="cardContainerEp"></div>
+
+        <footer class="container text-center mt-5">
+            <p>&copy; 2024 | dg</p>
+            <p>For educational purposes only.</p>
+        </footer>
     </div>
 
     <script>
@@ -57,7 +62,7 @@
 
             for (let i = 0; i < episodes.length && i < epPics.length; i++) {
                 const episode = episodes[i];
-                const episodeName = episode.name; 
+                const episodeName = episode.name;
                 const imageSrc = epPics[i];
 
                 myContainer.innerHTML += `

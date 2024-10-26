@@ -42,7 +42,7 @@
                     <div class="imgContainer" style=" max-width: 600px; width: 100%;">
                         <img id="episodesImage" src="" alt="Episode Image" style="width: 100%;">
                     </div>
-                </div>                
+                </div>
             </div>
             <div class="col-12 mt-5 text-center">
                 <div class="texts card p-3 rounded-5" style="font-family: 'Lato';">
@@ -53,13 +53,18 @@
                             Show Characters
                         </button>
                     </div>
-                    <div id="characterList" class="row d-flex flex-wrap justify-content-center mt-2" style="display: none;"></div>
+                    <div id="characterList" class="row d-flex flex-wrap justify-content-center mt-2"
+                        style="display: none;"></div>
                 </div>
                 <button class="btn btn-secondary mt-3" onclick="window.location.href='episodes.html';">
                     Back
                 </button>
             </div>
         </div>
+        <footer class="container text-center mt-5">
+            <p>&copy; 2024 | dg</p>
+            <p>For educational purposes only.</p>
+        </footer>
     </div>
 
     <script>
@@ -84,7 +89,7 @@
         const loadCharacters = async () => {
             const characterUrls = window.characterUrls;
             const characterList = document.getElementById("characterList");
-            
+
 
             for (const url of characterUrls) {
                 const response = await fetch(url);
@@ -103,16 +108,16 @@
 
         var display = "none";
         function expand() {
-            var characterList = document.getElementById("characterList"); 
-            var btnExpand = document.getElementById("btnExpand"); 
+            var characterList = document.getElementById("characterList");
+            var btnExpand = document.getElementById("btnExpand");
 
             if (characterList.style.display === "none" || characterList.style.display === "") {
-                loadCharacters(); 
+                loadCharacters();
                 characterList.style.display = "flex";
-                btnExpand.innerHTML = "Close"; 
+                btnExpand.innerHTML = "Close";
             } else {
                 characterList.innerHTML = '';
-                characterList.style.display = "none"; 
+                characterList.style.display = "none";
                 btnExpand.innerHTML = "Show Characters";
             }
         }
