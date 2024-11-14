@@ -1,7 +1,6 @@
 body {
-     /* background-color: #201e1e; */
     color: #d9dac8; 
-    height: 1900px; 
+    height: auto; 
     background: linear-gradient(50deg, #3f3b3b 0%, #201e1e 85%);
     font-family: 'Steamflix Montserrat', sans-serif;
 }
