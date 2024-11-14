@@ -4,41 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Denise Gabrielle's Works</title>
+    <title>Denise Gabrielle</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/steamflix-montserrat" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/media/DG.png">
 </head>
 
 <body>
-    <header class="container d-flex justify-content-between align-items-center">
-        <img src="assets/media/DG.png" alt="DG" style="margin-top: 5px;">
-        <nav class="top-right-nav">
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <main class="container text-center">
-        <h2>Welcome! Unveil the Magic of My Projects</h2>
-        <p><i>"Every line of code is a step in crafting a dream."</i></p>
-        <hr>
-        <h3>Projects</h3>
-        <section class="projects mx-5">
-            <a id="project-btn" class="btn" href="projects/activity4/index.html" target="_blank">Product Showcase</a>
-            <a id="project-btn" class="btn" href="projects/activity5/index.html" target="_blank">Country Showcase</a>
-            <a id="project-btn" class="btn" href="projects/activity6/index.html" target="_blank">Cucina Things</a>
-            <a id="project-btn" class="btn" href="projects/activity7/index.html" target="_blank">Rick and Morty</a>
-        </section>
-    </main>
+    <nav class="navbar shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="index.html" title="Home">
+                <img src="assets/media/DG.png" width="45px">
+            </a>
+            <div class="d-flex">
+                <div class="d-flex">
+                    <a class="nav-link mx-1" href="projects.html">PROJECTS</a>
+                    <a class="nav-link mx-1" href="#section-about">ABOUT</a>
+                    <a class="nav-link mx-1" href="#section-contacts">CONTACTS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="image-container mt-4">
+                    <img src="assets/media/myPic.png" width="300px">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="row p-4">
+                    <p class="home-text" style="font-size: 18px; letter-spacing: 3px;">HEY THERE!</p>
+                    <p class="home-text" style="font-size: 35px; letter-spacing: 2px;">
+                        I'M DENISE GABRIELLE EXPLORING THE WORLD OF CODE AND CREATIVITY.
+                    </p>
+                    <p class="home-text" style="color: #c3c4b7; font-size: 18px; letter-spacing: 3px;">Check
+                        out my projects and see what
+                        I'm building!</p>
+                    <a href="projects.html" target="_blank">
+                        <button class="projectsBtn">Projects</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="section-about">
+        <div class="container mt-3 pt-5 text-center">
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-title mt-3">ABOUT <span style="color:#FFDDFC;"><i>ME</i></span></h1>
+                    <h4 class="container-text-info mt-5">Highly motivated Information Technology student with a deep
+                        curiosity about how technology
+                        shapes our world. My journey into programming began with a fascination for understanding the
+                        inner workings of technology, and this curiosity quickly turned into a passion. As I continue
+                        learning and expanding my skills, my appreciation for the tech industry only grows. I’m excited
+                        about the endless possibilities and eager to contribute to innovations that make our daily lives
+                        easier and more efficient.</h4>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="logo-container mt-3" id="logoContainer"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-contacts">
+        <div class="container mt-3 pt-5 text-center">
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-title mt-3">GET IN <span style="color:#FFDDFC;"><i>TOUCH</i></span></h1>
+                    <button class="contact-btn" style="background-color: transparent; border: none">
+                        <a href="https://www.instagram.com/denisegbx/">
+                            <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png"
+                                alt="instagram-new" />
+                        </a>
+                        <a href="https://x.com/ei_eaiee">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png"
+                                alt="twitter--v1" />
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        for (let i = 1; i <= 9; i++) {
+            document.getElementById("logoContainer").innerHTML += `<img src="assets/media/img${i}.png">`;
+        }
+    </script>
 
     <footer class="container text-center mt-5">
         <p>&copy; 2024 | dg</p>
         <p>For educational purposes only.</p>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

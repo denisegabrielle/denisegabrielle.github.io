@@ -1,33 +1,93 @@
 body {
-    background-color: #201e1e;
-    color: rgb(199, 192, 171);
-    font-family: 'Roboto', sans-serif;
+     /* background-color: #201e1e; */
+    color: #d9dac8; 
+    height: 1900px; 
+    background: linear-gradient(50deg, #3f3b3b 0%, #201e1e 85%);
+    font-family: 'Steamflix Montserrat', sans-serif;
 }
 
-.top-right-nav {
+.navbar {
+    background-color: #282626;
+    font-family: 'Steamflix Montserrat', sans-serif;
+}
+
+.nav-link {
+    color: #FDFFCF;
+}
+
+.nav-link:hover {
+    color: #FFDDFC;
+    transform: scale(1.1);
+}
+
+.home-text {
+    font-family: 'Steamflix Montserrat', sans-serif;
+}
+
+.projectsBtn {
+    background-color:  #FFDDFC;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Steamflix Montserrat', sans-serif;
+    width: 130px;
+    display: hidden;
+    border: none;
+}
+
+.projectsBtn:hover {
+    background-color:  #FDFFCF;
+    transform: scale(1.1);
+}
+
+.text-title {
+    font-family: 'Steamflix Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+.container-text-info {
+    color: #d9dac8;
+    font-weight: normal;                                
+}
+
+.logo-container .img {
+    width: 80px;
+}
+
+.thumbnail {
+    position: relative; 
+    overflow: hidden; 
+}
+
+.thumbnail-image {
+    display: block;
+    width: 100%; 
+    height: auto; 
+}
+
+.thumbnail-overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(219, 221, 171, 0.7);
+    color:  #201e1e;
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    opacity: 0; 
+    transition: opacity 0.25s; 
 }
 
-.top-right-nav a {
-    color: rgb(199, 192, 171);
-    text-decoration: none;
-    transition: color 0.3s;
+.thumbnail:hover .thumbnail-overlay {
+    opacity: 1; 
 }
 
-.top-right-nav a:hover {
-    color: rgb(244, 220, 179);
-}
-
-h2 {
-    font-family: 'Lora', serif;
-    margin-top: 75px;
-    transition: color 0.3s, transform 0.5s;
-}
-
-h2:hover, h3:hover {
-    color: rgb(244, 220, 179);
-    transform: scale(1.05);
+.thumbnail-title {
+    font-size: 2em;
+    font-weight: bold;
 }
 
 hr {
@@ -35,34 +95,4 @@ hr {
     height: 2px;
     background-color: rgb(244, 220, 179);
     margin-top: 45px;
-}
-
-h3 {
-    font-family: 'Lora', serif;
-    margin-top: 40px;
-}
-
-.projects {
-    padding-top: 20px;
-}
-
-#project-btn {
-    background-color: rgb(47, 44, 44);
-    color: rgb(199, 192, 171);
-    border-radius: 25px;
-    padding: 10px;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-#project-btn:hover {
-    background-color: rgb(199, 192, 171);
-    color: rgb(47, 44, 44);
-}
-
-footer {
-    color: rgb(199, 192, 171);
-    margin-top: 220px;
 }
