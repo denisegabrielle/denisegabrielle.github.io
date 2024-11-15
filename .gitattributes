@@ -1,3 +1,2 @@
-assets/media/*.gif filter=lfs diff=lfs merge=lfs -text
 assets/media/bg404.gif filter=lfs diff=lfs merge=lfs -text
 assets/media/404.gif filter=lfs diff=lfs merge=lfs -text
