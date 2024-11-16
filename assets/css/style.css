@@ -1,21 +1,28 @@
 body {
     color: #d9dac8; 
-    height: auto; 
-    background: linear-gradient(50deg, #3f3b3b 0%, #201e1e 85%);
-    font-family: 'Steamflix Montserrat', sans-serif;
-}
-
-.navbar {
+    margin-top: 100px;
     background-color: #282626;
     font-family: 'Steamflix Montserrat', sans-serif;
 }
 
-.nav-link {
-    color: #FDFFCF;
+.navbar {
+    color: #FDFFCF; 
+    background-color: #282626; 
+    font-family: 'Steamflix Montserrat', sans-serif;
 }
 
-.nav-link:hover {
-    color: #FFDDFC;
+.navbar .dropdown-menu {
+    background-color: #282626; 
+    border: none;
+}
+
+.navbar .dropdown-item {
+    color: #FDFFCF; 
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #3f3b3b; 
+    color: #FFDDFC; 
     transform: scale(1.1);
 }
 
@@ -93,5 +100,5 @@ hr {
     border: none;
     height: 2px;
     background-color: rgb(244, 220, 179);
-    margin-top: 45px;
+    margin-top: 35px;
 }
