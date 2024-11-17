@@ -47,7 +47,8 @@
 
 #keyart-4 {
 	background-image: url(img/subtitle.png);
-    
+    width: 100%;
+    display:flex fluid;
 }
 
 #keyart-5 {
