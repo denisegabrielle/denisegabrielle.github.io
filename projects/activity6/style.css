@@ -7,7 +7,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .bg-image {
@@ -80,12 +80,12 @@ body {
 .text-title {
     font-family: 'Playfair Display SC', sans-serif;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 8vw;
 }
 
 .text-subtitle {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 4vw;
+    font-size: 40px;
 }
 
 .video-item {
