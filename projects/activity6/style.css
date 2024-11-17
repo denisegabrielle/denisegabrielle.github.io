@@ -1,18 +1,22 @@
-* {
-    box-sizing: border-box; 
-}
-
 body {
     background-color: #EBE3DB;
     font-family: "Lato", sans-serif;
-    margin: 0;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .container-home {
     position: relative;
     width: 100vw;
     height: 100vh;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    width: 100%; 
 }
 
 .bg-image {
@@ -35,18 +39,9 @@ body {
     color: #EBE3DB;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; 
-    width: 100%; 
-}
-
 .text-title {
     font-family: 'Playfair Display SC', sans-serif;
-    font-size: 100px;
+    font-size: 6vw;
     font-weight: bold;
     margin: 0; 
     padding: 0;
@@ -65,7 +60,7 @@ body {
 
 .text-subtitle {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 80px;
+    font-size: 4vw;
 }
 
 .text-subtitle-home {
