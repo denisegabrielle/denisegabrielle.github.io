@@ -21,10 +21,10 @@
 }
 
 .main-content {
+    position: absolute;
 	height: auto;
 	background-color: #085A7A;
 	width: 100%;
-	position: absolute;
 	z-index: 200;
 	overflow-x: hidden;
 }
@@ -47,6 +47,7 @@
 
 #keyart-4 {
 	background-image: url(img/subtitle.png);
+    
 }
 
 #keyart-5 {
@@ -68,4 +69,3 @@
 #keyart-scrim {
 	opacity: 0;
 }
-
