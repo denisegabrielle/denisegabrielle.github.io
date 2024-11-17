@@ -1,0 +1,71 @@
+.keyart,
+.keyart_layer {
+	height: 1000px;
+}
+
+.keyart {
+	position: relative;
+	z-index: 10;
+}
+
+.keyart_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+
+.keyart_layer.parallax {
+	position: fixed;
+}
+
+.main-content {
+	height: auto;
+	background-color: #085A7A;
+	width: 100%;
+	position: absolute;
+	z-index: 200;
+	overflow-x: hidden;
+}
+
+#keyart-0 {
+	background-image: url(img/bg.png);
+}
+
+#keyart-1 {
+	background-image: url(img/img1.png);
+}
+
+#keyart-2 {
+	background-image: url(img/img2.png);
+}
+
+#keyart-3 {
+	background-image: url(img/img3.png);
+}
+
+#keyart-4 {
+	background-image: url(img/subtitle.png);
+}
+
+#keyart-5 {
+	background-image: url(img/img4.png);
+}
+
+#keyart-6 {
+	background-image: url(img/img5.png);
+}
+
+#keyart-7 {
+	background-image: url(img/img6.png);
+}
+
+#keyart-8 {
+	background-image: url(img/img7.png);
+}
+
+#keyart-scrim {
+	opacity: 0;
+}
+
