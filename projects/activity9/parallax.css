@@ -102,9 +102,6 @@
 	opacity: 0;
 }
 
-
-
-/*Responsive Layers*/
 @media (max-width: 1300px){
 	.keyart,
 	.keyart_layer {
