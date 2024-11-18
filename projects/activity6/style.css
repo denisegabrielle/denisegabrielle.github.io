@@ -81,6 +81,7 @@ body {
     font-family: 'Playfair Display SC', sans-serif;
     font-weight: bold;
     font-size: 8vw;
+    text-align: center;
 }
 
 .text-subtitle {
@@ -140,6 +141,7 @@ body {
     max-width: 80%;
     max-height: 80%;
     font-weight: bold;
+    text-align: center;
 }
 
 .caption {
@@ -149,6 +151,7 @@ body {
     font-weight: bold;
     font-size: 24px;
     color: #EBE3DB;
+    text-align: center;
 }
 
 .close, .next, .prev {

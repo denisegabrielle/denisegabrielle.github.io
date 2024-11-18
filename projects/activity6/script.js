@@ -7,7 +7,7 @@ for (var i = 0; i < eCnames.length; i++) {
         `<div class="col-xl-3 col-md-4 col-sm-6 col-12 my-3">
                            <div class="image-wrapper" id="eC${i}" onmouseenter="addShadow('eC${i}')" onmouseleave="removeShadow('eC${i}')" onclick="openLightbox(${i}, 'european')">
                                <img src="${eCpics[i]}" class="img-fluid" alt="${eCnames[i]}">
-                               <h5 class="mt-2"><b>${eCnames[i]}</b></h5>
+                               <h5 class="text-center mt-2"><b>${eCnames[i]}</b></h5>
                            </div>
             </div>`;
 }
@@ -20,7 +20,7 @@ for (var i = 0; i < aPnames.length; i++) {
     myContainer.innerHTML += `<div class="col-xl-3 col-md-4 col-sm-6 col-12 my-3">
                            <div class="image-wrapper" id="aP${i}" onmouseenter="addShadow('aP${i}')" onmouseleave="removeShadow('aP${i}')" onclick="openLightbox(${i}, 'appetizers')">
                                <img src="${aPpics[i]}" class="img-fluid" alt="${aPnames[i]}">
-                               <h5 class="mt-2"><b>${aPnames[i]}</b></h5>
+                               <h5 class="text-center mt-2"><b>${aPnames[i]}</b></h5>
                            </div>
             </div>`;
 }
@@ -33,7 +33,7 @@ for (var i = 0; i < pNames.length; i++) {
     myContainer.innerHTML += `<div class="col-xl-3 col-md-4 col-sm-6 col-12 my-3">
                            <div class="image-wrapper" id="p${i}" onmouseenter="addShadow('p${i}')" onmouseleave="removeShadow('p${i}')" onclick="openLightbox(${i}, 'pastries')">
                                <img src="${pPics[i]}" class="img-fluid" alt="${pNames[i]}">
-                               <h5 class="mt-2"><b>${pNames[i]}</b></h5>
+                               <h5 class="text-center mt-2"><b>${pNames[i]}</b></h5>
                            </div>
             </div>`;
 }

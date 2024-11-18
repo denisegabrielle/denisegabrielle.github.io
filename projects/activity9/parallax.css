@@ -20,14 +20,21 @@
 	position: fixed;
 }
 
+
 .main-content {
+	width: 100%;
+	position: absolute;
+	z-index: 200;
+}
+
+/* .main-content {
     position: absolute;
-	height: auto;
+	height: 8000px;
 	background-color: #085A7A;
 	width: 100%;
 	z-index: 200;
 	overflow-x: hidden;
-}
+} */
 
 #keyart-0 {
 	background-image: url(img/bg.png);
