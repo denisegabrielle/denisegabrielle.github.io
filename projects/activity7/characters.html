@@ -16,19 +16,24 @@
 
 <body>
   <div class="container">
-    <nav class="navbar shadow justify-content-between align-items-center fixed-top">
-      <div class="container d-flex justify-content-between align-items-center">
+    <nav class="container-flex shadow justify-content-between align-items-center navbar shadow fixed-top ">
+      <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="media/logo.png" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
+          <img src="media/logo.png" alt="..." width="200" height="60">
         </a>
-
         <div class="d-flex">
-          <a class="nav-link mx-3" href="characters.html">Characters</a>
-          <a class="nav-link mx-2" href="episodes.html">Episodes</a>
+          <div class="dropdown me-3 mt-2">
+            <button class="btn dropdown-toggle mx-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="media/menu.png" width="30">
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="characters.html">Characters</a></li>
+              <li><a class="dropdown-item" href="episodes.html">Episodes</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
-
     <div class="contents">
       <div class="row justify-content-start">
         <h1 class="text-title"><span style="color: #A3CEF1; font-size: 80px; font-style: italic;">G</span>ALLERY</h1>
