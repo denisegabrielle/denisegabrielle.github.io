@@ -1,21 +1,37 @@
-/*PUT YOUR CUSTOM STYLE HERE*/
-
-/*!This style is important, do not override!*/
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-body {
-	color: #fffcf9;
-	font-family: 'Poppins', sans-serif;
+html, body {
+    background-color: #0886C0;
+    color: #fffcf9;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main-content {
-	background-color: #085A7A;
-	border-top: transparent;
-	height: auto;
-	width: 100%;
+    background: linear-gradient(180deg, #0886C0, #07618b 31%, #066b9a 41%, #055074 56%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    user-select: none;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h5, h1, h3 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-break: break-word;
 }
 
 .undersea {
@@ -81,30 +97,10 @@ body {
     opacity: 1;
 }
 
-.glass {
-	position: relative;
-	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    border-top: 1px solid rgba(255, 255, 255, 0.526);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 15px;
-    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-    width: 100%;
-    padding: 2em;
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 .card {
 	background-color: transparent;
 	border: none;
 	margin: 0 auto;
-    transition: transform 0.3s ease-in-out;
-}
-
-.card:hover {
-    transform: scale(1.05);
 }
 
 a {
@@ -124,13 +120,12 @@ a:hover {
 	color: #fffcf9;
 }
 
-@media (max-width: 768px) {
-    .keyart,
-    .keyart_layer {
-        height: 80vh; 
-    }
+body {
+    overflow-x: hidden;
+}
 
-    .main-content {
-        padding-top: 100px; 
+@media (max-width: 500px) {
+    h5, h1,h3 {
+        font-size: 14px;
     }
 }
