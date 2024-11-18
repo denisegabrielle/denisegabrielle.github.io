@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    color: #FDFFCF; 
+    color:  white;
     background-color: rgb(35, 1, 1); 
     font-family: 'Steamflix Montserrat', sans-serif;
 }
@@ -16,9 +16,14 @@ body {
     border: none;
 }
 
+.navbar .dropdown-item {
+    color:  white;
+    border: none;
+}
 
 .navbar .dropdown-item:hover {
-    background-color: #3f3b3b; 
+    background-color: #ffffff; 
+    color:  rgb(84, 0, 0);
     transform: scale(1.1);
 }
 
