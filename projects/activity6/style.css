@@ -176,3 +176,18 @@ body {
 .next {
     right: 20px; 
 }
+
+.btnProjects {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.btnProjects:hover {
+    background-color: #282626;
+    color: #d9dac8;
+}
