@@ -1,11 +1,6 @@
 body {
     background-color: #EBE3DB;
     font-family: "Lato", sans-serif;
-    background-image: url('foodImgs/bg.jpg');
-    background-size: cover;
-    font-family: 'Poppins', sans-serif;
-    background-attachment: fixed;
-    background-size: 100% 100%;
 }
 
 .container-home {
@@ -13,6 +8,11 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-y: hidden;
+    background-image: url('foodImgs/bg.jpg');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .navbar {
