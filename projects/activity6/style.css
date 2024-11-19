@@ -1,6 +1,11 @@
 body {
     background-color: #EBE3DB;
     font-family: "Lato", sans-serif;
+    background-image: url('foodImgs/bg.jpg');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .container-home {
@@ -10,20 +15,14 @@ body {
     overflow-y: hidden;
 }
 
-.bg-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .navbar {
     position: fixed;
     top: 0;
-    left: 0; 
-    right: 0; 
-    width: 100%; 
+    left: 0;
+    right: 0;
+    width: 100%;
     background-color: #3A2D28;
-    padding: 0; 
+    padding: 0;
 }
 
 .navbar .dropdown:hover {
@@ -35,23 +34,27 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center; 
-    width: 100%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .thumbnail {
-    position: relative; 
-    overflow: hidden; 
+    position: relative;
+    overflow: hidden;
 }
 
 .thumbnail-image {
     display: block;
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
 }
 
 .thumbnail-overlay {
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -63,12 +66,12 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    opacity: 0; 
-    transition: opacity 0.25s; 
+    opacity: 0;
+    transition: opacity 0.25s;
 }
 
 .thumbnail:hover .thumbnail-overlay {
-    opacity: 1; 
+    opacity: 1;
 }
 
 .thumbnail-title {
@@ -90,22 +93,23 @@ body {
 }
 
 .video-item {
-    width: 100%; 
-    height: auto; 
-    object-fit: cover; 
-    border-radius: 5px; 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .text-subtitle-home {
     color: #EBE3DB;
     font-family: 'Playfair Display', sans-serif;
     font-size: 100px;
+    margin: 0;
 }
 
 .btn {
-    
+
     background-color: #EBE3DB;
-    color:#79593e; 
+    color: #79593e;
 }
 
 #btnColor {
@@ -118,18 +122,18 @@ body {
     height: 50px;
     border-radius: 40px;
     background-color: #EBE3DB;
-    color:#79593e; 
+    color: #79593e;
 }
 
 .lightbox {
-    position: fixed; 
+    position: fixed;
     left: 0;
     top: 60px;
     width: 100%;
-    height: calc(100% - 60px); 
+    height: calc(100% - 60px);
     overflow: hidden;
     background-color: rgba(54, 54, 53, 0.8);
-    display: none; 
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -154,27 +158,29 @@ body {
     text-align: center;
 }
 
-.close, .next, .prev {
+.close,
+.next,
+.prev {
     position: fixed;
     color: #EBE3DB;
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
-    top: 50%; 
+    top: 50%;
 }
 
 .close {
-    top: 50px; 
+    top: 50px;
     right: 40px;
-    transform: none; 
+    transform: none;
 }
 
 .prev {
-    left: 20px; 
+    left: 20px;
 }
 
 .next {
-    right: 20px; 
+    right: 20px;
 }
 
 .btnProjects {
@@ -190,4 +196,10 @@ body {
 .btnProjects:hover {
     background-color: #282626;
     color: #d9dac8;
+}
+
+@media (max-width: 500px) {
+    .text-subtitle-home {
+        font-size: 2.5em;
+    }
 }
