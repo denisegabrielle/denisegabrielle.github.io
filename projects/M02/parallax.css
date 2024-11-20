@@ -135,8 +135,6 @@
 	}
 }
 
-
-
 /* Portrait Responsive Layers */
 @media only screen and (max-device-width: 1280px) and (orientation: portrait) {
     .keyart,

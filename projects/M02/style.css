@@ -45,6 +45,10 @@ h5, h1, h3 {
     word-break: break-word;
 }
 
+.card {
+    text-align: center;
+}
+
 .undersea {
 	position: absolute;
     opacity: 1;
@@ -160,8 +164,11 @@ body {
     h5 {
         font-size: 20px;
     }
-    h1,h3 {
-        font-size: 14px;
+    h1 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
     }
 }
 
