@@ -92,6 +92,7 @@ body {
 }
 
 .gotToProjects {
+    position: relative;
     display: inline-block;
     margin-left: 20%; 
 }
@@ -179,7 +180,7 @@ body {
     }
 
     .swiper-slide {
-        width: 60%;
+        width: 100%;
     }
 }
 
