@@ -1,104 +1,190 @@
 body {
-    color: #d9dac8; 
-    margin-top: 100px;
-    background-color: #282626;
-    font-family: 'Steamflix Montserrat', sans-serif;
+    color: white;
+    background-color: #0F103F;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
-    color: #FDFFCF; 
-    background-color: #282626; 
-    font-family: 'Steamflix Montserrat', sans-serif;
+    background-color: transparent;
+    z-index: 10;
+    margin-top: 3%;
 }
 
-.navbar .dropdown-menu {
-    background-color: #282626; 
-    border: none;
-}
-
-.navbar .dropdown-item {
-    color: #FDFFCF; 
-}
-
-.navbar .dropdown-item:hover {
-    background-color: #3f3b3b; 
-    color: #FFDDFC; 
-    transform: scale(1.1);
-}
-
-.home-text {
-    font-family: 'Steamflix Montserrat', sans-serif;
-}
-
-.projectsBtn {
-    background-color:  #FFDDFC;
-    border-radius: 20px;
-    font-size: 20px;
-    font-family: 'Steamflix Montserrat', sans-serif;
-    width: 130px;
-    display: hidden;
-    border: none;
-}
-
-.projectsBtn:hover {
-    background-color:  #FDFFCF;
-    transform: scale(1.1);
-}
-
-.text-title {
-    font-family: 'Steamflix Montserrat', sans-serif;
-    font-size: 50px;
-}
-
-.container-text-info {
-    color: #d9dac8;
-    font-weight: normal;                                
-}
-
-.logo-container .img {
-    width: 80px;
-}
-
-.thumbnail {
-    position: relative; 
-    overflow: hidden; 
-}
-
-.thumbnail-image {
-    display: block;
-    width: 100%; 
-    height: auto; 
-}
-
-.thumbnail-overlay {
-    position: absolute; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(219, 221, 171, 0.7);
-    color:  #201e1e;
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-    opacity: 0; 
-    transition: opacity 0.25s; 
+    justify-content: space-between;
 }
 
-.thumbnail:hover .thumbnail-overlay {
-    opacity: 1; 
+.icons {
+    color: white;
 }
 
-.thumbnail-title {
-    font-size: 2em;
+
+.navbar-brand:hover,
+.icons:hover {
+    color: #FFDDFC;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    display: block;
+}
+
+.section-intro {
+    position: relative;
+    width: 100%;
+}
+
+.custom-bg {
+    background: linear-gradient(135deg, rgba(230, 0, 255, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px rgba(58, 58, 58, 0.3);
+    backdrop-filter: blur(10px);
+    width: 80%;
+    padding: 2em;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.text {
+    position: relative;
+    width: 80vw;
+    font-size: 6vw;
+    margin-top: 9%;
+    margin-left: 10%;
     font-weight: bold;
 }
 
-hr {
-    border: none;
-    height: 2px;
-    background-color: rgb(244, 220, 179);
-    margin-top: 35px;
+.elements {
+    position: absolute;
+    z-index: 0;
 }
+
+#img1 {
+    left: 0%;
+    top: 0;
+    width: 20%;
+}
+
+#img2 {
+    margin-top: 70%;
+    left: 0%;
+    width: 20%;
+}
+
+#img3 {
+    top: 0%;
+    right: 0%;
+    width: 70%;
+}
+
+#img4 {
+    margin-top: 100%;
+    margin-bottom: 0%;
+    left: 50%;
+    width: 50%;
+}
+
+.btn.btn-secondary {
+    position: relative;
+    margin-left: 25%;
+    border-radius: 50px;
+}
+
+#section-contacts {
+    position: relative;
+    height: 100%;
+    margin-bottom: 20%;
+    font-size: 5vw;
+    padding-top: 40vh;
+    margin-top: 10vh;
+}
+
+#section-about {
+    position: relative;
+}
+
+#section-about .container-text-info {
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.container-text-info {
+    text-align: left;
+}
+
+.myPic {
+    display: block;
+    margin: 0 auto;
+}
+
+#section-projects {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 15%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+@media (max-width: 500px) {
+    .navbar-brand {
+        font-size: 10px;
+        align-items: center;
+    }
+
+    .myPic {
+        width: 300px;
+    }
+
+    .btn.btn-secondary {
+        font-size: 2vw;
+    }
+
+    #section-contacts {
+        padding-top: 0vh;
+        margin-top: 5vh;
+        margin-top: 5vh;
+    }
+
+    #section-about {
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    #section-contacts {
+        padding-top: 0vh;
+        margin-top: 15vh;
+    }
+
+    #section-about {
+        margin-top: 0%;
+    }
+}
+
