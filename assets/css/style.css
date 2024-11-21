@@ -91,10 +91,13 @@ body {
     width: 50%;
 }
 
+.gotToProjects {
+    display: inline-block;
+    margin-left: 20%; 
+}
+
 .btn.btn-secondary {
-    position: relative;
-    margin-left: 25%;
-    border-radius: 50px;
+    border-radius: 50px; 
 }
 
 #section-contacts {
@@ -103,7 +106,7 @@ body {
     margin-bottom: 20%;
     font-size: 5vw;
     padding-top: 40vh;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 #section-about {
@@ -142,7 +145,7 @@ body {
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 15%;
+    width: 20%;
 }
 
 .swiper-slide img {
@@ -161,13 +164,13 @@ body {
         width: 300px;
     }
 
-    .btn.btn-secondary {
-        font-size: 2vw;
+    .gotToProjects {
+        font-size: 1vw;
     }
 
     #section-contacts {
         padding-top: 0vh;
-        margin-top: 5vh;
+        margin-top: 2vh;
         margin-top: 5vh;
     }
 
