@@ -35,6 +35,16 @@ body {
     display: block;
 }
 
+.button {
+    text-decoration: none;
+    border: transparent;
+    background-color: #6566a1;
+    font-size: 2vw;
+    color: white;
+    width:  13vw;
+    text-align: center;
+}
+
 .section-intro {
     position: relative;
     width: 100%;
@@ -74,21 +84,48 @@ body {
     width: 70%;
 }
 
-#img4 {
-    margin-top: 100%;
-    margin-bottom: 0%;
-    left: 50%;
-    width: 50%;
+#img5 {
+    left: 0%;
+    top: 0;
+    width: 20%;
 }
 
-.gotToProjects {
+#img4 {
+    margin-top: 100%;
+    left: 60%;
+    width:40%;
+}
+
+#gif {
+    left: 0;
+    top: 10%;
+    width: 45%;
+
+}
+
+h1.text {
+    position: relative;
+    display: inline-block;
+    font-size: 7vw;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+h1.error {
+    position: relative;
+    font-size: 7vw;
+    font-family: 'Funkie Retro', sans-serif;
+}
+
+.goToSubjects {
     position: relative;
     display: inline-block;
     margin-left: 20%; 
 }
 
-.btn.btn-secondary {
-    border-radius: 50px; 
+.goBack {
+    position: relative;
 }
 
 #section-contacts {
@@ -120,28 +157,25 @@ body {
     margin: 0 auto;
 }
 
-#section-projects {
+#section-subjects {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.subject {
+    width: 37%;
 }
 
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 25%;
+a {
+    color: transparent;
+    background: transparent;
+    text-decoration: none;
 }
 
-.swiper-slide img {
-    display: block;
-    width: 100%;
+.btnSubjects.btn.btn-secondary {
+    position: relative;
 }
 
 @media (max-width: 500px) {
@@ -154,10 +188,6 @@ body {
         width: 300px;
     }
 
-    .gotToProjects {
-        font-size: 1vw;
-    }
-
     #section-contacts {
         padding-top: 0vh;
         margin-top: 2vh;
@@ -168,9 +198,10 @@ body {
         margin-top: 0%;
     }
 
-    .swiper-slide {
+    .subject {
         width: 100%;
     }
+
 }
 
 @media (max-width: 1100px) {
@@ -184,7 +215,8 @@ body {
         margin-top: 0%;
     }
 
-    .swiper-slide {
-        width: 40%;
+    .subject {
+        width: 45%;
     }
 }
+

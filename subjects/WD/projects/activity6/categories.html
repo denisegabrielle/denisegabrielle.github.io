@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Foods</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/playfair-display-sc" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/playfair-display" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+    <link rel="icon" type="image/png" href="foodImgs/logo.png">
+</head>
+
+<body data-bs-theme="light" id="body">
+    <nav class="container-flex shadow justify-content-between align-items-center navbar fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="foodImgs/logo.png" alt="Logo" width="60" height="50" class="d-inline-block align-text-top">
+            </a>
+            <div class="d-flex">
+                <div class="dropdown me-3 mt-2">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Foods
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#section-1">European Cuisine</a></li>
+                        <li><a class="dropdown-item" href="#section-2">Appetizer</a></li>
+                        <li><a class="dropdown-item" href="#section-3">Pastry</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item"
+                                href="https://www.instagram.com/cucinathings?igsh=MW9yaG5lNzhxbXp6Ng==">Explore
+                                CucinaThings</a></li>
+                    </ul>
+                </div>
+                <button class="btnChangeColor" id="btnColor" onclick="changeColorMode()">
+                    <img id="darkMode" src="foodImgs/darkMode1.png" alt="Toggle Dark Mode">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row mt-5 p-5">
+            <h4><i>Cucina Things</i> is a vibrant gallery celebrating the world of culinary arts. It showcases a
+                variety of
+                dishes from different cultures, highlighting unique flavors and artistic presentations that
+                captivate the eyes
+                and make your mouth water. Each image is crafted to spark your curiosity and stir your appetite,
+                inviting
+                you to indulge in the sensory delights of global cuisine. Whether you're a food enthusiast or just
+                curious,
+                Cucina Things draws you in with visuals that make you hungry to explore and savor the beauty of
+                diverse
+                culinary traditions!</h4>
+        </div>
+        <div class="row mx-5">
+            <div class="thumbnail-container ">
+                <div class="row" id="categories">
+                    <div class="col-12 col-sm-6 col-md-4 col-l-4 col-xl-4">
+                        <div class="thumbnail">
+                            <a href="#section-1" title="European Cuisine" class="d-block position-relative">
+                                <img class="thumbnail-image rounded-5 mx-auto my-4 w-100"
+                                    src="foodImgs/EuropeanCuisine/Pesto Fettuccine.jpg" alt="Pesce all’acqua pazza">
+                                <div class="thumbnail-overlay">
+                                    <div class="thumbnail-title">European Cuisine</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-l-4 col-xl-4">
+                        <div class="thumbnail">
+                            <a href="#section-2" title="Appetizer" class="d-block position-relative">
+                                <img class="thumbnail-image rounded-5 mx-auto my-4 w-100"
+                                    src="foodImgs/Appetizer/Chorizo Stuffed Mushroom.jpg" alt="Pesce all’acqua pazza">
+                                <div class="thumbnail-overlay">
+                                    <div class="thumbnail-title">Appetizer</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-l-4 col-xl-4">
+                        <div class="thumbnail">
+                            <a href="#section-3" title="Pastry" class="d-block position-relative">
+                                <img class="thumbnail-image rounded-5 mx-auto my-4 w-100"
+                                    src="foodImgs/Pastry/Tiramisu.jpg" alt="Pesce all’acqua pazza">
+                                <div class="thumbnail-overlay">
+                                    <div class="thumbnail-title">Pastry</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="section-1">
+            <h1 class="text-title text-center mt-5">European Cuisine</h1>
+            <div class="col-12 p-5 rounded-5">
+                <h1 class="text-subtitle mb-3"><i>Cucina Things: A Taste of
+                        Europe</i></h1>
+                <h4>Step into <i>Cucina Things</i>, where the rich flavors and culinary artistry of Europe
+                    come to
+                    life.
+                    This gallery takes you on a gastronomic journey through the continent, featuring an
+                    array of
+                    dishes
+                    that celebrate traditional and contemporary European cuisine. From the delicate pastries
+                    of
+                    France to
+                    the hearty pasta dishes of Italy, and the fresh seafood of Spain to the comforting
+                    sausages of
+                    Germany, each dish is a work of art crafted to delight the senses. At Cucina Things, we
+                    invite
+                    you to
+                    savor the diversity and charm of Europe's finest culinary creations, all in one place.
+                </h4>
+                <div class="d-flex justify-content-center mt-4">
+                    <button type="button" onclick="expandContentEc()" class="btn btn-outline-secondary"
+                        id="btnExpand">See
+                        Photos</button>
+                </div>
+                <div class="row" id="cardContainerEc" style="display: none;"></div>
+            </div>
+        </section>
+
+        <section id="section-2">
+            <h1 class="text-title text-center mt-5">Appetizers</h1>
+            <div class="col-12 p-5 rounded-5">
+                <h1 class="text-subtitle mb-3"><i>Cucina Things: Appetizers</i>
+                </h1>
+                <h4>Explore a captivating collection of appetizers at <i>Cucina Things</i>! Our online
+                    gallery
+                    showcases an
+                    array of visually stunning and delicious small bites, celebrating the art of culinary
+                    presentation. From vibrant dips to elegant finger foods, each image highlights the
+                    creativity
+                    and flavors that appetizers can offer, inspiring your next gathering or snack time.
+                </h4>
+                <div class="d-flex justify-content-center mt-4">
+                    <button type="button" onclick="expandContentAp()" class="btn btn-outline-secondary"
+                        id="btnExpand">See Photos</button>
+                </div>
+                <div class="row" id="cardContainerAp" style="display: none;"></div>
+            </div>
+        </section>
+
+        <section id="section-3">
+            <h1 class="text-title text-center mt-5">Pastry</h1>
+            <div class="col-12 p-5 rounded-5">
+                <h1 class="text-subtitle mb-3"><i>Cucina Things: Pastries</i></h1>
+                <h4>Indulge in a curated selection of bite-sized pastries that delight with every flaky
+                    layer and
+                    buttery crumb. From sweet to savory, our pastries are crafted to bring warmth and
+                    comfort to
+                    your palate. Whether you crave a classic puff, a delicate tart, or a unique twist on
+                    familiar
+                    favorites, each piece is made to satisfy and inspire. Explore our collection and let
+                    each pastry
+                    take you on a journey of rich flavors and textures.
+                </h4>
+                <div class="d-flex justify-content-center mt-4">
+                    <button type="button" onclick="expandContentPastries()" class="btn btn-outline-secondary"
+                        id="btnExpand">See Photos</button>
+                </div>
+                <div class="row" id="cardContainerPastries" style="display: none;"></div>
+            </div>
+        </section>
+
+        <section id="section-4">
+            <h1 class="text-subtitle text-center mt-5"><b>Featured Knives</b></h1>
+            <div class="col-12 p-5 rounded-5">
+                <h4>These two knives are the backbone of every dish, each with a unique purpose that
+                    complements the
+                    other.
+                    The first knife, with its finely honed blade, is perfect for precision work like slicing
+                    herbs
+                    and
+                    delicate ingredients. The second knife, a robust chef's knife, handles the heavier
+                    tasks,
+                    effortlessly
+                    chopping through tougher ingredients with power and control. Together, they bring
+                    balance to the
+                    kitchen, offering versatility and efficiency to every culinary creation. These knives
+                    not only
+                    enhance
+                    the preparation process but also reflect a commitment to quality and craftsmanship in
+                    every
+                    dish.</h4>
+                <div class="container-imgs mt-5">
+                    <img src="foodImgs/knife.png" class="rounded mx-auto w-100">
+                </div>
+            </div>
+        </section>
+
+        <section id="section-5">
+            <h1 class="text-subtitle mb-3"><b>Short Clips</b></h1>
+            <div class="row mt-5">
+                <div class="col-12 col-sm-6 col-md-3 col-l-3 col-xl-3 my-3">
+                    <video playsinline loop muted class="video-item" id="video1" onmouseover="pause('video1')"
+                        onmouseout="play('video1')">
+                        <source src="foodImgs/vid1.MOV" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-l-3 col-xl-3 my-3">
+                    <video playsinline loop muted class="video-item" id="video3" onmouseover="pause('video3')"
+                        onmouseout="play('video3')">
+                        <source src="foodImgs/vid3.MOV" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-l-3 col-xl-3 my-3">
+                    <video playsinline loop muted class="video-item" id="video4" onmouseover="pause('video4')"
+                        onmouseout="play('video4')">
+                        <source src="foodImgs/vid4.MOV" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-l-3 col-xl-3 my-3">
+                    <video playsinline loop muted class="video-item" id="video5" onmouseover="pause('video5')"
+                        onmouseout="play('video5')">
+                        <source src="foodImgs/vid5.MOV" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox" style="display: none;">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <span class="prev" onclick="prevImage()">&#10094;</span>
+            <span class="next" onclick="nextImage()">&#10095;</span>
+            <img class="lightbox-content" id="lightboxImage" alt="">
+            <div id="caption" class="caption"></div>
+        </div>
+
+        <div class="row">
+            <div class="col d-flex justify-content-center my-4">
+                <a href="../../index.html">
+                    <button class="btnProjects">
+                        Portfolio
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <footer class="container text-center mt-5">
+            <p>&copy; 2024 | dg</p>
+            <p>For educational purposes only.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
