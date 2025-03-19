@@ -15,47 +15,32 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="container d-flex justify-content-center align-items-center ">
-            <a class="navbar-brand" href="index.html">Home</a>
-            <a class="navbar-brand" href="#section-about">About</a>
+    <nav class="navbar p-0">
+        <div class="container-fluid shadow p-4 d-flex justify-content-center">
+            <a class="navbar-brand mx-2" href="index.html">Home</a>
+            <a class="navbar-brand mx-2" href="#section-about">About</a>
 
-            <a class="navbar-brand">
-                <img src="assets/media/DG.png" alt="Logo" width="30" class="d-inline-block align-text-top">
+            <a class="navbar-brand mx-2">
+                <img src="assets/media/DG.png" alt="Logo" width="30" class="d-inline-block align-text-top mx-2">
             </a>
 
-            <a class="navbar-brand" href="#section-subjects">Subjects</a>
-            <a class="navbar-brand" href="#section-contacts">Contacts</a>
+            <a class="navbar-brand mx-2" href="#section-subjects">Subjects</a>
+            <a class="navbar-brand mx-2" href="#section-contacts">Contacts</a>
         </div>
     </nav>
 
-    <section class="section-intro container-fluid" id="home">
-        <img src=".//assets/media/img1.png" id="img1" class="elements">
-        <img src=".//assets/media/img2.png" id="img2" class="elements">
-        <img src=".//assets/media/img3.png" id="img3" class="elements">
-        <img src=".//assets/media/img4.png" id="img4" class="elements">
-
-        <div class="row">
-            <div class="col-12 fluid">
-                <h1 class="text">Where Imagination Thrives and Technology
-                    Empowers</h1>
+    <div class="container">
+        <div class="row home my-5 mx-2 rounded-5 p-5 shadow-xl d-flex justify-content-center align-items-center">
+            <div class="row design rounded-5 p-2 shadow">
+                <p class="hello text-center">Hello!</p>
+                <p class="p-3">- thank you for stopping by. Simplicity, creativity, and purpose drive everything
+                    I create. This space is a reflection of my work and my passion, and I’m excited to share it with
+                    you.
+                    Feel free to browse, and if you’re looking for someone to bring your ideas to life, let’s connect.
+                </p>
             </div>
         </div>
-    </section>
-
-    <section id="section-contacts">
-        <div class="d-flex justify-content-center  align-items-center">
-            <a class="icons mx-5" href="https://www.instagram.com/denisegbx/">
-                <i class="bi bi-instagram"></i>
-            </a>
-            <a class="icons" href="mailto:dnsgbrllsuarez@gmail.com">
-                <i class="bi bi-envelope mx-5"></i>
-            </a>
-            <a class="icons" href="https://x.com/ei_eaiee">
-                <i class="bi bi-twitter-x  mx-5"></i>
-            </a>
-        </div>
-    </section>
+    </div>
 
     <section id="section-about">
         <div class="container mt-5">
@@ -76,17 +61,23 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center mt-3">I am<b> Denise Gabrielle M. Suarez,</b></h1>
-                    <p class="container-text-info custom-bg mt-3 text-start"><b>an Information Technology student at
-                            the Polytechnic University of the Philippines, Sto. Tomas Campus</b>, currently exploring
-                        the
-                        world of code and creativity. I am a highly motivated student with a deep curiosity about how
-                        technology shapes our world. My journey into programming began with a fascination for
-                        understanding the inner workings of technology, which quickly evolved into a passion. As I
-                        continue to expand my skills and knowledge, my appreciation for the tech industry continues
-                        to grow. I am excited about the endless possibilities and eager to contribute to innovations
-                        that make our daily lives easier and more efficient.
-                    </p>
+                    <div class="row home mx-2 rounded-5 p-5 shadow-xl d-flex justify-content-center align-items-center">
+                        <h1 class="text-center my-3">I am<b> Denise Gabrielle M. Suarez,</b></h1>
+                        <div class="row design rounded-5 p-2 shadow">
+                            <p class="info text-start p-3"><b>an Information Technology student at
+                                    the Polytechnic University of the Philippines, Sto. Tomas Campus</b>, currently
+                                exploring the world of code and creativity. I am a highly motivated student with a deep
+                                curiosity
+                                about how technology shapes our world. My journey into programming began with a
+                                fascination for
+                                understanding the inner workings of technology, which quickly evolved into a passion. As
+                                I continue to expand my skills and knowledge, my appreciation for the tech industry
+                                continues to grow. I am excited about the endless possibilities and eager to contribute
+                                to
+                                innovations that make our daily lives easier and more efficient.
+                        </div>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -95,20 +86,76 @@
     <section id="section-subjects">
         <div class="container mt-5">
             <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-12 d-flex justify-content-center align-items-center">
+                <div class="col-12 d-flex justify-content-center align-items-center mt-5">
                     <h1><b>Subjects</b></h1>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="subjects/WD/index.html">
-                        <img class="subject mt-5 mx-2" src="assets/media/WD.png">
-                    </a>
-                    <a href="subjects/ADET/index.html">
-                        <img class="subject mt-5 mx-2" src="assets/media/ADET.png">
-                    </a>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="section-subjects">
+        <div class="container mt-5 p-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 my-3">
+                    <div class="card subject p-2">
+                        <div class="card-body text-center">
+                            <h2 class="card-title subject">Web Development</h2>
+                            <a href="subjects/WD/index.html">
+                                <button class="button-subjects my-3">
+                                    Unveil
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 my-3">
+                    <div class="card subject p-2">
+                        <div class="card-body text-center">
+                            <h2 class="card-title subject">Application Development and Emerging Technologies</h2>
+                            <a href="subjects/ADET/index.html">
+                                <button class="button-subjects my-3">
+                                    Unveil
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="section-contacts">
+        <div class="container mt-5">
+            <div class="row home my-5 mx-2 rounded-5 p-5 shadow-xl d-flex justify-content-center align-items-center">
+                <div class="row design rounded-5 p-2 shadow">
+                    <div class="col-12 d-flex justify-content-center align-items-center mt-5">
+                        <h3>I’d love to hear your thoughts!</h3>
+                    </div>
+                    <div class="row text-center my-3">
+                        <h1><b>Drop me a Message</b></h1>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="d-flex justify-content-center  align-items-center mt-5">
+                        <a class="icons mx-4" href="https://www.instagram.com/denisegbx/">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a class="icons" href="mailto:dnsgbrllsuarez@gmail.com">
+                            <i class="bi bi-envelope mx-4"></i>
+                        </a>
+                        <a class="icons" href="https://x.com/ei_eaiee">
+                            <i class="bi bi-twitter-x  mx-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 
     <footer class="footer mt-5 text-center">
         <p>&copy; 2024 | dg</p>
