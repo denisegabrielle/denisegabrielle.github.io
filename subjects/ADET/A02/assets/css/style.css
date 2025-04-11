@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    background-color: #b9a894;
+    background-color: #86725c;
     position: fixed;
     top: 500;
     width: 100%;
@@ -24,17 +24,33 @@ a {
 }
 
 .card-products,
-.banner-card,
 .contact-card,
-.product-details-card {
+.about-us,
+.product-details-card,
+.follow-card {
     background-color: transparent;
-    border: 2px solid #311739;
+    border: 2px solid #654528;
 }
 
-.banner,
-.contact-title {
+.banner {
     font-size: 4vw;
-    font-family: 'Rangile', sans-serif;
+    font-family: 'REVERIE', sans-serif;                                            
+}
+
+.contact-title,
+.follow-title,
+.address-title {
+    font-size: 3vw;
+    font-family: 'REVERIE', sans-serif;                                             
+}
+
+.address-text {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+i.address-icon {
+    font-size: 40px;
 }
 
 .card-products {
@@ -49,15 +65,16 @@ a {
 .sidebar {
     margin-top: 100px; 
     background-color: transparent;
-    border: 2px solid #311739;
+    border: 2px solid #654528;
     height: 100vh; 
     max-height: 80vh; 
+    font-weight: bolder;
 }
 
 i.sidebar-icon,
 i.order-icon {
     font-size: 24px;
-    color: #311739;
+    color: #654528;
     font-weight:bolder;
 }
 
@@ -82,13 +99,19 @@ i.order-icon {
 }
 
 .btn-submit {
-    background-color: #311739;
+    background-color: #654528;
     color: #F7EDE2;
 }
 
 .btn-submit:hover {
-    background-color: #aa73ba;
+    background-color: #a78c74;
+    color: black;
 }
+
+.socials-icon {
+    font-size: 5vw;
+}
+
 
 @media(max-width: 1090px){
     .sidebar-text{
@@ -104,10 +127,26 @@ i.order-icon {
     }
 }
 
-@media(max-width: 939px){
+@media(max-width: 971px){
     .sidebar-text{
         display: none;
     }
+
+    .contact-title,
+    .follow-title,
+    .socials-icon,
+    .address-title {
+        font-size: 6vw;
+    }
+
+    .address-text {
+        font-size: 4vw;
+    }
+
+    .banner {
+        font-size: 6vw;                                           
+    }
+    
 }
 
 @media(max-width: 575px){
@@ -133,4 +172,19 @@ i.order-icon {
     .sidebar hr {
         display: none;
     }
+
+    .banner {
+        font-size: 8vw;                                           
+    }
+
+    .contact-title,
+    .follow-title,
+    .socials-icon, .address-title {
+        font-size: 10vw;
+    }
+
+    .address-text {
+        font-size: 5vw;
+    }
+
 }

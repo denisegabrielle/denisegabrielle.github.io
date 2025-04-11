@@ -35,7 +35,7 @@ if (isset($_GET['page'])) {
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link href="https://fonts.cdnfonts.com/css/rangile" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/reverie" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/instrument-sans" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/img/logo.png">
