@@ -1,0 +1,136 @@
+body {
+    background-color: #F7EDE2;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #b9a894;
+    position: fixed;
+    top: 500;
+    width: 100%;
+    z-index: 999;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-content {
+    margin-top: 70px; 
+    height: 85vh; 
+    max-height: 85vh;
+    overflow-x:hidden;
+}
+
+.card-products,
+.banner-card,
+.contact-card,
+.product-details-card {
+    background-color: transparent;
+    border: 2px solid #311739;
+}
+
+.banner,
+.contact-title {
+    font-size: 4vw;
+    font-family: 'Rangile', sans-serif;
+}
+
+.card-products {
+    transition: transform 0.1s ease; 
+    background-color: transparent;
+}
+
+.card-products:hover {
+    transform: scale(1.01);
+}
+
+.sidebar {
+    margin-top: 100px; 
+    background-color: transparent;
+    border: 2px solid #311739;
+    height: 100vh; 
+    max-height: 80vh; 
+}
+
+i.sidebar-icon,
+i.order-icon {
+    font-size: 24px;
+    color: #311739;
+    font-weight:bolder;
+}
+
+.btn-order {
+    border: none;
+    background-color: transparent;
+}
+
+.price {
+    font-size: larger;
+}
+
+.custom-textarea {
+    background-color: #c6baad;
+}
+
+.custom-textarea:focus {
+    background-color: #c6baad;
+    border: 1px solid #c6baad;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-submit {
+    background-color: #311739;
+    color: #F7EDE2;
+}
+
+.btn-submit:hover {
+    background-color: #aa73ba;
+}
+
+@media(max-width: 1090px){
+    .sidebar-text{
+        display: flex;
+        justify-content: center;
+    }
+
+    i.sidebar-icon{
+        margin-bottom: 10px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 939px){
+    .sidebar-text{
+        display: none;
+    }
+}
+
+@media(max-width: 575px){
+    .sidebar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        border: none;
+    }
+
+    .sidebar-text {
+        display: none;
+    }
+
+    i.sidebar-icon {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .sidebar hr {
+        display: none;
+    }
+}
