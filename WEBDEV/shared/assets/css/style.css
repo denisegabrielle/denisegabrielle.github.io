@@ -20,13 +20,6 @@ body {
     display: block;
 }
 
-/* .subject {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: center;
-} */
-
 .swiper {
     width: 100%;
 }
