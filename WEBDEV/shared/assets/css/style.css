@@ -20,6 +20,13 @@ body {
     display: block;
 }
 
+/* .subject {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+} */
+
 .swiper {
     width: 100%;
 }
@@ -38,5 +45,11 @@ body {
 @media (max-width: 550px) {
     .swiper-slide {
         width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .subject {
+       font-size: 7vw;
     }
 }

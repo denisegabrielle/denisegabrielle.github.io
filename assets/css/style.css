@@ -155,3 +155,9 @@ a {
         font-weight: bold;
     }
 }
+
+@media (max-width: 345px) {
+    .img-logo {
+        display: none;
+    }
+}

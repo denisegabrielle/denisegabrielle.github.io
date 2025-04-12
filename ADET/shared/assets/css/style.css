@@ -40,3 +40,9 @@ body {
         width: 100%;
     }
 }
+
+@media (max-width: 420px) {
+    .subject {
+       font-size: 7vw;
+    }
+}
