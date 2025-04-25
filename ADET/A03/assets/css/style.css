@@ -210,6 +210,11 @@ body {
     border: 1px solid #e9e9e9;
 }
 
+.skill-text{
+    font-size:3vw;
+    text-align: center;
+}
+
 
 @media(max-width: 1200px) {
 

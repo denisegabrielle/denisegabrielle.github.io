@@ -11,7 +11,7 @@ for (var i = 0; i < skill.length; i++) {
                                 <img src="${skillPics[i]}" alt="Skill"/>
                             </div>
                             <div class="flip-card-back">
-                                <p>${skill[i]}</p>
+                                <p class="skill-text">${skill[i]}</p>
                             </div>
                         </div>
                     </div>
