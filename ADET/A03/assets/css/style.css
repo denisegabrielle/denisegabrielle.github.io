@@ -222,7 +222,6 @@ h6.error {
 }
 
 .skill-text {
-    font-size: 3vw;
     text-align: center;
 }
 
@@ -340,6 +339,11 @@ h3.error {
 
     .about-me {
         font-size: 25px;
+    }
+
+    .skill-text {
+        font-size: 2.5vw;
+        text-align: center;
     }
 
     h1.error {
