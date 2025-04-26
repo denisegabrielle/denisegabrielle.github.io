@@ -63,7 +63,8 @@ body {
     max-width: 80%;
 }
 
-.logo-2, .dish-1, .dish-2{
+.logo-2,
+.dish {
     min-width: 100%;
     max-width: 100%;
 }
