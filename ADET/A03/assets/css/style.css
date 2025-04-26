@@ -95,7 +95,8 @@ body {
 
 .design {
     background-color: #676565;
-    height: 4vh;
+    height: 43px;
+    pointer-events: none;
 }
 
 .cover-pics {
