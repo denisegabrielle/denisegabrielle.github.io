@@ -1,0 +1,85 @@
+body {
+    background-color: #315A39;
+    scrollbar-color: #7A9F79;
+}
+
+.cardReceipt {
+    height: 96vh;
+}
+
+.mainContainer {
+    height: 75dvh;
+    overflow-x: auto;
+
+}
+
+.categoryContainer {
+    height: 18dvh;
+    overflow-y: auto;
+}
+
+.categoryImg {
+    width: 40px;
+}
+
+.categoryCard.card,
+.plantCard.card {
+    border: 2px solid #315A39;
+}
+
+.categories {
+    width: fit-content;
+}
+
+.categoryCard {
+    min-width: 150px;
+    max-width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.categoryCard.card:hover {
+    background-color: #e0f7df;
+    cursor: pointer;
+}
+
+.category {
+    font-weight: 500;
+}
+
+.logo {
+    margin: auto;
+}
+
+.plantImg {
+    width: 150px;
+}
+
+.plantCard {
+    min-width: 180px;
+    max-width: 180px;
+    cursor: pointer;
+
+}
+
+.receipt {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.total {
+    flex-shrink: 0;
+    border-top: 1px solid #ccc;
+    overflow-x: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.value {
+    padding: 0;
+    margin: 0;
+}
