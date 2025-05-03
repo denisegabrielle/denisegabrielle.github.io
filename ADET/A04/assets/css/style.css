@@ -13,12 +13,14 @@ body {
     height: 75dvh;
     overflow-x: auto;
     background-color: #7A9F79;
+    scrollbar-color: #acd1af #315e26;
 }
 
 .categoryContainer {
     height: 18dvh;
     overflow-y: auto;
     background-color: #7A9F79;
+    scrollbar-color: #acd1af #315e26;
 }
 
 .categoryImg {
@@ -76,6 +78,7 @@ body {
     overflow-y: auto;
     background-color: #e0f7df;
     border: none;
+    scrollbar-color: #acd1af #315e26;
 }
 
 .logo {
