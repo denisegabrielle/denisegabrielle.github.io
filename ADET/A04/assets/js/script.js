@@ -11,7 +11,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Extra-Small",
-                        "img": "bns-xs.webp",
+                        "img": "bns-xs.png",
                         "code": "XS",
                         "price": "300",
                         "potDetails": [
@@ -33,7 +33,7 @@ var plants = [
                     },
                     {
                         "name": "Medium",
-                        "img": "bns-m2.webp",
+                        "img": "bns-m2.png",
                         "code": "MD",
                         "price": "1700",
                         "potDetails": [
@@ -55,7 +55,7 @@ var plants = [
                     },
                     {
                         "name": "Medium",
-                        "img": "bns-np-md.webp",
+                        "img": "bns-np-md.png",
                         "code": "MD",
                         "price": "1000",
                         "potDetails": [
@@ -85,7 +85,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Medium",
-                        "img": "bns-lg.webp",
+                        "img": "bns-lg.png",
                         "code": "MD",
                         "price": "4800",
                         "potDetails": [
@@ -107,7 +107,7 @@ var plants = [
                     },
                     {
                         "name": "Medium",
-                        "img": "bns-b-m.webp",
+                        "img": "bns-b-m.png",
                         "code": "MD",
                         "price": "2800",
                         "potDetails": [
@@ -129,7 +129,7 @@ var plants = [
                     },
                     {
                         "name": "Large",
-                        "img": "bns-b-m.webp",
+                        "img": "bns-b-m.png",
                         "code": "LG",
                         "price": "3800",
                         "potDetails": [
@@ -159,7 +159,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Extra-small",
-                        "img": "zz-xs.webp",
+                        "img": "zz-xs.png",
                         "code": "XS",
                         "price": "900",
                         "potDetails": [
@@ -182,7 +182,7 @@ var plants = [
                     },
                     {
                         "name": "Large",
-                        "img": "zz-lg.webp",
+                        "img": "zz-lg.png",
                         "code": "LG",
                         "price": "1900",
                         "potDetails": [
@@ -212,7 +212,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "ev-s.webp",
+                        "img": "ev-s.png",
                         "code": "S",
                         "price": "1700",
                         "potDetails": [
@@ -234,7 +234,7 @@ var plants = [
                     },
                     {
                         "name": "Medium",
-                        "img": "ev-m.webp",
+                        "img": "ev-m.png",
                         "code": "MD",
                         "price": "3500",
                         "potDetails": [
@@ -256,7 +256,7 @@ var plants = [
                     },
                     {
                         "name": "Large",
-                        "img": "ev-l.webp",
+                        "img": "ev-l.png",
                         "code": "LG",
                         "price": "9500",
                         "potDetails": [
@@ -286,7 +286,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Medium",
-                        "img": "s-m.webp",
+                        "img": "s-m.png",
                         "code": "MD",
                         "price": "1600",
                         "potDetails": [
@@ -308,7 +308,7 @@ var plants = [
                     },
                     {
                         "name": "Large",
-                        "img": "s-l.webp",
+                        "img": "s-l.png",
                         "code": "LG",
                         "price": "4000",
                         "potDetails": [
@@ -338,7 +338,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "lly-s.webp",
+                        "img": "lly-s.png",
                         "code": "S",
                         "price": "1000",
                         "potDetails": [
@@ -360,7 +360,7 @@ var plants = [
                     },
                     {
                         "name": "Extra-large",
-                        "img": "lly-xl.webp",
+                        "img": "lly-xl.png",
                         "code": "XL",
                         "price": "3300",
                         "potDetails": [
@@ -396,7 +396,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "snk-s.webp",
+                        "img": "snk-s.png",
                         "code": "S",
                         "price": "850",
                         "potDetails": [
@@ -418,7 +418,7 @@ var plants = [
                     },
                     {
                         "name": "Large",
-                        "img": "snk-l.webp",
+                        "img": "snk-l.png",
                         "code": "LG",
                         "price": "1400",
                         "potDetails": [
@@ -449,7 +449,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Extra extra small",
-                        "img": "ftn-xxs.webp",
+                        "img": "ftn-xxs.png",
                         "code": "XXS",
                         "price": "530",
                         "potDetails": [
@@ -479,7 +479,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "crtn-s.webp",
+                        "img": "crtn-s.png",
                         "code": "S",
                         "price": "300",
                         "potDetails": [
@@ -510,7 +510,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Medium",
-                        "img": "btfy-m.webp",
+                        "img": "btfy-m.png",
                         "code": "MD",
                         "price": "1000",
                         "potDetails": [
@@ -532,7 +532,7 @@ var plants = [
                     },
                     {
                         "name": "Medium",
-                        "img": "btfy-m2.webp",
+                        "img": "btfy-m2.png",
                         "code": "MD",
                         "price": "1200",
                         "potDetails": [
@@ -554,7 +554,7 @@ var plants = [
                     },
                     {
                         "name": "Large",
-                        "img": "btfy-l.webp",
+                        "img": "btfy-l.png",
                         "code": "LG",
                         "price": "4500",
                         "potDetails": [
@@ -584,7 +584,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Large",
-                        "img": "d-l1.webp",
+                        "img": "d-l1.png",
                         "code": "LG",
                         "price": "1950",
                         "potDetails": [
@@ -606,7 +606,7 @@ var plants = [
                     },
                     {
                         "name": "Large",
-                        "img": "d-l2.webp",
+                        "img": "d-l2.png",
                         "code": "LG",
                         "price": "3250",
                         "potDetails": [
@@ -642,7 +642,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "scc-s.webp",
+                        "img": "scc-s.png",
                         "code": "Mini",
                         "price": "120",
                         "potDetails": [
@@ -672,7 +672,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "linde-anna.webp",
+                        "img": "linde-anna.png",
                         "code": "Mini",
                         "price": "115",
                         "potDetails": [
@@ -702,7 +702,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "sedum-treleasei.webp",
+                        "img": "sedum-treleasei.png",
                         "code": "Mini",
                         "price": "100",
                         "potDetails": [
@@ -732,7 +732,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "Echeveria-Firefly.webp",
+                        "img": "Echeveria-Firefly.png",
                         "code": "Mini",
                         "price": "125",
                         "potDetails": [
@@ -762,7 +762,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "p.webp",
+                        "img": "p.png",
                         "code": "Mini",
                         "price": "180",
                         "potDetails": [
@@ -784,7 +784,7 @@ var plants = [
                     },
                     {
                         "name": "Small",
-                        "img": "ap-4in.webp",
+                        "img": "ap-4in.png",
                         "code": "S",
                         "price": "280",
                         "potDetails": [
@@ -814,7 +814,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "Aeonium-Aquaman.webp",
+                        "img": "Aeonium-Aquaman.png",
                         "code": "Mini",
                         "price": "99",
                         "potDetails": [
@@ -836,7 +836,7 @@ var plants = [
                     },
                     {
                         "name": "Small",
-                        "img": "aq-4in.webp",
+                        "img": "aq-4in.png",
                         "code": "S",
                         "price": "199",
                         "potDetails": [
@@ -866,7 +866,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "bubble.webp",
+                        "img": "bubble.png",
                         "code": "Mini",
                         "price": "105",
                         "potDetails": [
@@ -896,7 +896,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "cubic.webp",
+                        "img": "cubic.png",
                         "code": "Mini",
                         "price": "99",
                         "potDetails": [
@@ -926,7 +926,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "candy.webp",
+                        "img": "candy.png",
                         "code": "Mini",
                         "price": "125",
                         "potDetails": [
@@ -956,7 +956,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "2 inch",
-                        "img": "echeveria-snow-angel.webp",
+                        "img": "echeveria-snow-angel.png",
                         "code": "Mini",
                         "price": "110",
                         "potDetails": [
@@ -992,7 +992,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "cy.webp",
+                        "img": "cy.png",
                         "code": "S",
                         "price": "150",
                         "potDetails": [
@@ -1022,7 +1022,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "o.webp",
+                        "img": "o.png",
                         "code": "S",
                         "price": "140",
                         "potDetails": [
@@ -1052,7 +1052,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "white.webp",
+                        "img": "white.png",
                         "code": "S",
                         "price": "160",
                         "potDetails": [
@@ -1082,7 +1082,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "ldy.webp",
+                        "img": "ldy.png",
                         "code": "S",
                         "price": "130",
                         "potDetails": [
@@ -1118,7 +1118,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "crl.webp",
+                        "img": "crl.png",
                         "code": "S",
                         "price": "280",
                         "potDetails": [
@@ -1148,7 +1148,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "pnk.webp",
+                        "img": "pnk.png",
                         "code": "S",
                         "price": "290",
                         "potDetails": [
@@ -1178,7 +1178,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "pnk-orch.webp",
+                        "img": "pnk-orch.png",
                         "code": "S",
                         "price": "320",
                         "potDetails": [
@@ -1208,7 +1208,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "rd.webp",
+                        "img": "rd.png",
                         "code": "S",
                         "price": "275",
                         "potDetails": [
@@ -1238,7 +1238,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "srs.webp",
+                        "img": "srs.png",
                         "code": "S",
                         "price": "330",
                         "potDetails": [
@@ -1268,7 +1268,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "brm.webp",
+                        "img": "brm.png",
                         "code": "S",
                         "price": "300",
                         "potDetails": [
@@ -1298,7 +1298,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "pnkorch.webp",
+                        "img": "pnkorch.png",
                         "code": "S",
                         "price": "335",
                         "potDetails": [
@@ -1328,7 +1328,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Mini",
-                        "img": "orchmini.webp",
+                        "img": "orchmini.png",
                         "code": "Mini",
                         "price": "350",
                         "potDetails": [
@@ -1350,7 +1350,7 @@ var plants = [
                     },
                     {
                         "name": "Small",
-                        "img": "orchwh.webp",
+                        "img": "orchwh.png",
                         "code": "S",
                         "price": "450",
                         "potDetails": [
@@ -1380,7 +1380,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "ylworch.webp",
+                        "img": "ylworch.png",
                         "code": "S",
                         "price": "380",
                         "potDetails": [
@@ -1410,7 +1410,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "dporch.webp",
+                        "img": "dporch.png",
                         "code": "S",
                         "price": "420",
                         "potDetails": [
@@ -1440,7 +1440,7 @@ var plants = [
                 "sizes": [
                     {
                         "name": "Small",
-                        "img": "dbl-sm.webp",
+                        "img": "dbl-sm.png",
                         "code": "S",
                         "price": "500",
                         "potDetails": [
@@ -1462,7 +1462,7 @@ var plants = [
                     },
                     {
                         "name": "Large",
-                        "img": "dbl-lg.webp",
+                        "img": "dbl-lg.png",
                         "code": "LG",
                         "price": "820",
                         "potDetails": [
