@@ -1,0 +1,178 @@
+.design {
+    position: relative;
+    width: 80vw;
+    height: 90vh;
+}
+
+.design img {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.design button {
+    position: absolute;
+    bottom: -3%;
+    width: 30%;
+    height: 10%;
+}
+
+.contentContainer {
+    background-color: #fff8f1;
+    position: absolute;
+    padding: 75px 40px;
+    width: 90%;
+    height: 60dvh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    overflow-y: auto;
+    scrollbar-color: transparent transparent;
+}
+
+.contentText {
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: min(7vw, 60px);
+    font-weight: 500;
+    color: #333;
+}
+
+.quote {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: min(4vw, 50px);
+    font-weight: 500;
+    color: #3C3C3C;
+}
+
+.author {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: min(2vw, 32px);
+    font-weight: 700;
+    color: #7E6651;
+}
+
+.btnQuote {
+    background-color: #ADCAB1;
+    border-radius: 100px;
+    box-shadow:
+        rgba(173, 202, 177, 0.2) 0 -25px 18px -14px inset,
+        rgba(173, 202, 177, 0.15) 0 1px 2px,
+        rgba(173, 202, 177, 0.15) 0 2px 4px,
+        rgba(173, 202, 177, 0.15) 0 4px 8px,
+        rgba(173, 202, 177, 0.15) 0 8px 16px,
+        rgba(173, 202, 177, 0.15) 0 16px 32px;
+    color: #14532d;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 1.5vw;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btnQuote:hover {
+    box-shadow:
+        rgba(176, 223, 194, 0.2) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.15) 0 1px 2px,
+        rgba(44, 187, 99, 0.15) 0 2px 4px,
+        rgba(44, 187, 99, 0.15) 0 4px 8px,
+        rgba(44, 187, 99, 0.15) 0 8px 16px,
+        rgba(44, 187, 99, 0.15) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.titleRow,
+.quoteRow {
+    background-color: #ADCAB1;
+}
+
+.title, .quoteHome {
+    font-family: 'Naishila Dancing Script', sans-serif;
+    font-size: min(13vw, 70px);
+    color: #3C3C3C;
+    transform: translateY(-100px);
+    opacity: 0;
+    animation: revealText 2s ease-out forwards;
+    animation-delay: 0.1s; 
+}
+
+@keyframes revealText {
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.quoteHome,
+.titleSection {
+    font-family: 'Naishila Dancing Script', sans-serif;
+    font-size: min(8vw, 50px);
+    color: #3C3C3C;
+}
+
+.titleSection {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: appear linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.tagline,
+.authorHome {
+    font-family: 'Lato TR', sans-serif;
+    font-size: min(5vw, 30px);
+    color: #7E6651;
+    font-weight: 600;
+}
+
+.text1 {
+    font-family: 'Lato TR', sans-serif;
+    font-size: min(5vw, 30px);
+    color: #7E6651;
+}
+
+.embedded iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    min-height: 100vh;
+
+    opacity: 0;
+    transform: translateY(-150px);
+    animation: appear linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.text2 {
+    font-family: 'Lato TR', sans-serif;
+    font-size: min(3vw, 25px);
+    color: #7E6651;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
